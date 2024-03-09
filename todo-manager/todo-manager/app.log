@@ -1,0 +1,16 @@
+2024-03-09T06:41:30.506-08:00  INFO 8428 --- [main] com.todo.TodoManagerApplication          : Starting TodoManagerApplication using Java 21.0.1 with PID 8428 (D:\SpringBootProject\todo-manager\todo-manager\target\classes started by hp in D:\SpringBootProject\todo-manager\todo-manager)
+2024-03-09T06:41:30.537-08:00  INFO 8428 --- [main] com.todo.TodoManagerApplication          : No active profile set, falling back to 1 default profile: "default"
+2024-03-09T06:41:32.392-08:00  INFO 8428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-03-09T06:41:32.422-08:00  INFO 8428 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09T06:41:32.423-08:00  INFO 8428 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-09T06:41:32.546-08:00  INFO 8428 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09T06:41:32.547-08:00  INFO 8428 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1881 ms
+2024-03-09T06:41:33.305-08:00  INFO 8428 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-03-09T06:41:33.324-08:00  INFO 8428 --- [main] com.todo.TodoManagerApplication          : Started TodoManagerApplication in 3.866 seconds (process running for 4.786)
+2024-03-09T06:41:37.044-08:00  INFO 8428 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09T06:41:37.045-08:00  INFO 8428 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09T06:41:37.051-08:00  INFO 8428 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-03-09T06:41:37.485-08:00  INFO 8428 --- [http-nio-8080-exec-1] com.todo.controller.TodoController       : Current Date Sat Mar 09 06:41:37 PST 2024
+2024-03-09T06:41:37.491-08:00  INFO 8428 --- [http-nio-8080-exec-1] com.todo.controller.TodoController       : Creting Todo
+2024-03-09T06:41:37.491-08:00  INFO 8428 --- [http-nio-8080-exec-1] com.todo.Services.TodoService            : Creating Todo in Services
+2024-03-09T06:41:58.681-08:00 ERROR 8428 --- [http-nio-8080-exec-4] com.todo.Exception.GlobalException       : Error Resource Not Found With Id
